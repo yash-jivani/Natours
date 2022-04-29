@@ -13,9 +13,12 @@ Dark green: #28b485
     box-sizing: border-box;   
 }
 
+html{
+    font-size: 10px;
+}
+
 body{
     font-family: 'Lato', sans-serif;
-    font-size: 16px;
     color: #777;
     font-weight: 400;
     line-height: 1.7;
@@ -37,12 +40,12 @@ body{
 
 .logo-box{
     position: absolute;
-    top:40px;
-    left: 40px;
+    top:4rem;
+    left: 4rem;
 }
 
 .logo{
-    height: 35px;
+    height: 3.5rem;
 }
 
 .text-box{
@@ -57,12 +60,12 @@ body{
     text-transform: uppercase;
     color: white;
     backface-visibility: hidden;
-    margin-bottom: 40px;
+    margin-bottom: 4rem;
 }
 
 .heading-primary-main{
-    letter-spacing:35px ;
-    font-size: 60px;
+    letter-spacing:3.5rem ;
+    font-size: 6rem;
     font-weight:400 ;
     display: block;
     animation: moveLeft 1s ease-in-out;
@@ -70,8 +73,8 @@ body{
 
 .heading-primary-sub{
     display: block;
-    letter-spacing:17.4px ;
-    font-size: 20px;
+    letter-spacing:1.75rem ;
+    font-size: 2rem;
     font-weight:700 ;
     animation: moveRight 1s ease-in-out;
 }
@@ -81,10 +84,10 @@ body{
 @keyframes moveLeft{
     0%{
         opacity: 0;
-        transform: translateX(-100px);
+        transform: translateX(-10rem);
     }
     80%{
-        transform: translateX(10px);
+        transform: translateX(1rem);
     }
     100%{
         opacity: 1;
@@ -95,10 +98,10 @@ body{
 @keyframes moveRight{
     0%{
         opacity: 0;
-        transform: translateX(100px);
+        transform: translateX(10rem);
     }
     80%{
-        transform: translateX(-10px);
+        transform: translateX(-1rem);
     }
     100%{
         opacity: 1;
@@ -109,22 +112,23 @@ body{
 .btn:link,
 .btn:visited{
     display: inline-block;
-    padding: 15px 40px;
+    padding: 1.5rem 4rem;
     text-decoration: none;
     text-transform: uppercase;
-    border-radius: 100px;
+    border-radius: 10rem;
     transition: all 0.2s;
+    font-size: 1.6rem;
 }
 
 .btn:hover{
     transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, .2);
 
 }
 
 .btn:active{
     transform: translateY(-1px);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .2);
 }
 
 .btn-white{
