@@ -113,6 +113,39 @@ body {
           z-index: 1;
           transform: scale(1.1); }
 
+.section-features {
+  padding: 10rem 0;
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.753), rgba(40, 180, 133, 0.753)), url(/img/nat-1-large.jpg);
+  background-position: center;
+  background-size: cover; }
+  .section-features .card-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; }
+  .section-features .card {
+    padding: 1rem;
+    background-color: #f7f7f7;
+    width: 20rem;
+    border-radius: 4px;
+    padding: 2rem 0;
+    transition: all 0.3s; }
+    .section-features .card__head {
+      font-size: 4.2rem;
+      font-weight: 700;
+      color: #333333;
+      margin-bottom: .5rem; }
+    .section-features .card__heading-text {
+      color: #000000;
+      font-size: 1.7rem;
+      margin-bottom: 1rem; }
+    .section-features .card p {
+      font-size: 1.3rem;
+      color: #255d1b; }
+    .section-features .card:hover {
+      transform: scale(1.2);
+      box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.4);
+      cursor: pointer; }
+
 .u-text-center {
   text-align: center; }
 
