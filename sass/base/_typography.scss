@@ -158,3 +158,13 @@ background-size: cover;
     }
   }
 }
+
+.footer{
+  padding: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  color: black;
+  font-weight: 600;
+  background-color: rgba($color-primary-dark, 0.753);
+  font-size: 2.5rem;
+}
